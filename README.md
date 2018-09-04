@@ -4,7 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Install npm modules using `npm install` and then you can use `npm start` which will run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
 
 ## Explanations of the App
 
@@ -15,3 +16,7 @@ The app was built using Angular CLI and uses SASS and Bootstrap SASS styling (as
 Upon pressing a button a tooltip will appear on top and will move to the bottom if scrolled down. Pressing outside of the tooltip or using the escape key will close it. Moreover, when pressing the second button the first tooltip will dissapear leaving only one tooltip visible at time (as instructed).
 
 The tooltips were styled using Bootstrap.
+
+## Notes
+
+This app depends on Angular CLI
