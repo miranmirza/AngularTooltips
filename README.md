@@ -6,22 +6,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Explanations of the App
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The app has one default route /dashboard which contains some Lorem Ipsum text and two buttons. The Lorem Ipsum text was included to ensure that we can test out scroll behaviour.
 
-## Build
+The app was built using Angular CLI and uses SASS and Bootstrap SASS styling (as instructed). For accessibility HTML5 semantic markup such as the button tag was used. I also decided to use the role attribute on tooltips to ensure they are indentified correctly by screen readers.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Upon pressing a button a tooltip will appear on top and will move to the bottom if scrolled down. Pressing outside of the tooltip or using the escape key will close it. Moreover, when pressing the second button the first tooltip will dissapear leaving only one tooltip visible at time (as instructed).
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+The tooltips were styled using Bootstrap.
