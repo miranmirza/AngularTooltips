@@ -1,11 +1,5 @@
 import { Component, Directive, Inject, OnInit, ViewChild, ElementRef, HostListener } from '@angular/core';
 
-@Directive({
-    selector: '.tooltip-container'
-})
-export class TooltipContainerDirective {
-}
-
 @Component({
     templateUrl: './tooltip.component.html',
     styleUrls: ['./tooltip.component.scss']
